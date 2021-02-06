@@ -10,10 +10,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.javainuse.listener.JobCompletionListener;
-import com.javainuse.step.Processor;
-import com.javainuse.step.Reader;
-import com.javainuse.step.Writer;
+import com.javause.listener.JobCompletionListener;
+import com.javause.step.Processor;
+import com.javause.step.Reader;
+import com.javause.step.Writer;
 
 @Configuration
 public class BatchConfig {
